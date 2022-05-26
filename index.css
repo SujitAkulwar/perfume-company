@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0px;
+	padding: 0px;
+	background-color: papayawhip;
+}
+.header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	height: 60px;
+	width: 100%;
+}
+.logo{
+	margin-left: 20px;
+	align-items: start;
+}
+.logo a img{
+	width: 50px;
+}
+.name{
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#title{
+	margin: auto;
+	font-size: 50px;
+	font-style: italic;
+	font-family: monospace;
+}
+.hamburgersign{
+	margin-right: 20px;
+	align-items: end;
+}
+.hamburgersign a img{
+	width: 50px;
+}

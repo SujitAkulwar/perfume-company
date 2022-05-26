@@ -1,10 +1,4 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	height: 100%;
-	width: 100%;
-}
-.container{
+*,.container{
 	margin: 0px;
 	padding: 0px;
 	background-color: papayawhip;
@@ -13,11 +7,11 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: flex;
+	flex-grow: inherit;
 	height: 60px;
-	width: 100%;
 }
 .logo{
-	margin-left: 20px;
+	padding-left: 20px;
 	align-items: start;
 }
 .logo a img{
@@ -35,61 +29,77 @@
 	font-family: monospace;
 }
 .hamburgersign{
-	margin-right: 20px;
+	padding-right: 20px;
 	align-items: end;
 }
 .hamburgersign img{
 	width: 50px;
 }
 .subcontainer{
-	padding: 30px;
+	padding: 5px;
+	height: 600px;
 	display: flex;
+	margin: auto;
+	height: auto;
 }
 .img1 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
+	margin: auto;
 }
 .img2 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
+	margin: auto;
 }
 .img3 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
+	margin: auto;
 }
 .img4 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
+	margin: auto;
 }
 .img5 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
 }
 .img6 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
+	margin: auto;
 }
 .img7 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
+	margin: auto;
 }
 .img8 img{
-	width: 200px;
+	width: 400px;
 	image-rendering: auto;
 	height: auto;
-	padding: 30px;
+	padding: 5px;
+	margin: auto;
+}
+#button{
+	height: 40px;
+	width: 20px;
+	margin: auto;
+	padding: 10px;
 }

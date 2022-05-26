@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="script" type="text/script" href="index.js">
+    <script type="text/javascript "src="index.js"></script>
 </head>
 
 
@@ -28,34 +28,62 @@
                 <img src="hamburger.png">
             </div>
         </header>
+
         <div class="subcontainer">
+            <button id="button" onclick="fun()">
+                <    
+            </button>
             <div class="img1" id="img1">
                 <img src="image (1).jpg">
             </div>
-            <div class="img2">
+            <div class="img2" id="img2">
                 <img src="image (2).jpg">
             </div>
-            <div class="img3">
+            <div class="img3" id="img3">
                 <img src="image (3).jpg">
             </div>
-            <div class="img4">
+            <div class="img4" id="img4">
                 <img src="image (4).jpg">
             </div>
-            <div class="img5">
+            <div class="img5" id="img5">
                 <img src="image (5).jpg">
             </div>
-            <div class="img6">
+            <div class="img6" id="img6">
                 <img src="image (6).jpg">
             </div>
-            <div class="img7">
+            <div class="img7" id="img7">
                 <img src="image (7).jpg">
             </div>
-            <div class="img8">
+            <div class="img8" id="img8">
                 <img src="image (8).jpg">
             </div>
-
+            <button id="button" onclick="fun2()">
+                >    
+            </button>
         </div>
     </div>
+            
+
+            <script type="text/javascript">
+
+                document.getElementById("img1").style.display = "none";
+                document.getElementById("img2").style.display = "none";
+                document.getElementById("img3").style.display = "none";
+                document.getElementById("img4").style.display = "none";
+                document.getElementById("img5").style.display = "none";
+                document.getElementById("img6").style.display = "none";
+                document.getElementById("img7").style.display = "none";
+                document.getElementById("img8").style.display = "none";
+
+                function fun(){
+                    document.getElementById("img1").style.display = "block";
+                }
+                function fun2(){
+                    document.getElementById("img1").style.display = "none";
+                }
+
+            </script>
+        
 
 </body>
 </html>

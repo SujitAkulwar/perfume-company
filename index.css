@@ -1,6 +1,8 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	height: 100%;
+	width: 100%;
 }
 .container{
 	margin: 0px;
@@ -38,4 +40,56 @@
 }
 .hamburgersign img{
 	width: 50px;
+}
+.subcontainer{
+	padding: 30px;
+	display: flex;
+}
+.img1 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
+}
+.img2 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
+}
+.img3 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
+}
+.img4 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
+}
+.img5 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
+}
+.img6 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
+}
+.img7 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
+}
+.img8 img{
+	width: 200px;
+	image-rendering: auto;
+	height: auto;
+	padding: 30px;
 }

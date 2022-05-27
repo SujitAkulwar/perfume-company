@@ -24,11 +24,6 @@
                 <div class="name">
                     <p id="title">AC perfume</p>
                 </div>
-                <div class="hamburgersign">
-                    <button id="button2" onclick="show()">
-                    <img src="hamburger.png">
-                    </button>
-                </div>
             </header>
 
             <div class="subcontainer">
@@ -62,24 +57,31 @@
         </div>
 
         <div class="container2" id="container2">
-            <button id="button3" onclick="hide()">
-                <img src="hamburger.png">
-            </button>
-            <ul>
+            <div class="hamburgersign">
+                    <button id="button2" onclick="show()">
+                    <img src="hamburger.png">
+                    </button>
+                    <button id="button3" onclick="hide()">
+                        <img src="hamburger.png">
+                    </button>
+            </div>
+
+            
+            <ul id="hidden">
                 <li>
-                    Home
+                    <a href="#">Home</a>
                 </li>
                 <li>
-                    About
+                    <a href="#">About</a>
                 </li>
                 <li>
-                    Cart
+                    <a href="#">Cart</a>
                 </li>
                 <li>
-                    Contact Us
+                    <a href="#">Contact</a>
                 </li>
                 <li>
-                    FAQ
+                    <a href="#">FAQ</a>
                 </li>
             </ul>
         </div>

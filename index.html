@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script type="text/javascript "src="index.js"></script>
+    
 </head>
 
 
@@ -25,14 +25,17 @@
                 <p id="title">AC perfume</p>
             </div>
             <div class="hamburgersign">
+                <button id="button2" onclick="show()">
                 <img src="hamburger.png">
+                </button>
+                <button id="button3" onclick="hide()">
+                <img src="hamburger.png">
+                </button>
             </div>
         </header>
 
         <div class="subcontainer">
-            <button id="button" onclick="fun()">
-                <    
-            </button>
+            <button id="button" onclick="fun()"><</button>
             <div class="img1" id="img1">
                 <img src="image (1).jpg">
             </div>
@@ -57,32 +60,11 @@
             <div class="img8" id="img8">
                 <img src="image (8).jpg">
             </div>
-            <button id="button" onclick="fun2()">
-                >    
-            </button>
+            <button id="button" onclick="fun2()">></button>
         </div>
     </div>
-            
 
-            <script type="text/javascript">
-
-                document.getElementById("img1").style.display = "none";
-                document.getElementById("img2").style.display = "none";
-                document.getElementById("img3").style.display = "none";
-                document.getElementById("img4").style.display = "none";
-                document.getElementById("img5").style.display = "none";
-                document.getElementById("img6").style.display = "none";
-                document.getElementById("img7").style.display = "none";
-                document.getElementById("img8").style.display = "none";
-
-                function fun(){
-                    document.getElementById("img1").style.display = "block";
-                }
-                function fun2(){
-                    document.getElementById("img1").style.display = "none";
-                }
-
-            </script>
+    <script type="text/javascript "src="index.js"></script>
         
 
 </body>

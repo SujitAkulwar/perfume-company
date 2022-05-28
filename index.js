@@ -20,3 +20,7 @@ function hide(){
 	document.getElementById('hidden').style.display = "none";
 	document.getElementById("button3").style.display = "none";
 }
+
+function fun(){
+	
+}

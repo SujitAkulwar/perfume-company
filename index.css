@@ -1,12 +1,11 @@
 *,.container{
 	margin: 0vh;
 	padding: 0vh;
-	background-color: papayawhip;
 	box-sizing: border-box;
 	position: static;
 }
 .container{
-	width: 200vh;
+	width: 150vh;
 	align-items: stretch;
 }
 .main{
@@ -18,7 +17,7 @@
 	padding-top: 4vh;
 	padding-bottom: 4vh;
 	display: flex;
-	width: 200vh;
+	width: 150vh;
 	height: 16vh;
 	justify-content: space-between;
 }
@@ -31,6 +30,9 @@
 }
 .name{
 	margin: auto;
+	align-items: center;
+	justify-content: center;
+	padding-left: 30vh;
 }
 #title{
 	font-size: 10.0vh;
@@ -65,18 +67,25 @@
 }
 .container2{
 	padding-top: 4vh;
-	background-color: orangered;
-	width: 0vh;
+	width: 40vh;
 	height: 140.0vh;
 	transition: .5s;
-	font-size: 6.0vh;
+	font-size: 4.0vh;
 	z-index: 1;
 	overflow: auto;
+	border: 0.5vh;
 }
 ul{
-	padding: 2vh;
+	padding: 6vh;
 	align-items: initial;
 	align-content: space-between;
 	justify-content: center;
 	justify-items: lecacy center;
+}
+li{
+	border: 0.5vh;
+	border-color: black;
+	border-style: solid;
+	background-color: orangered;
+	margin: 4vh;
 }

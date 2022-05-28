@@ -32,7 +32,7 @@
 	margin: auto;
 	align-items: center;
 	justify-content: center;
-	padding-left: 30vh;
+	padding-left: 60vh;
 }
 #title{
 	font-size: 10.0vh;
@@ -40,6 +40,7 @@
 	font-family: monospace;
 }
 .hamburgersign{
+	padding-left: 25vh;
 	padding-right: .2vh;
 }
 .hamburgersign img{
@@ -88,4 +89,16 @@ li{
 	border-style: solid;
 	background-color: orangered;
 	margin: 4vh;
+}
+#buttonarrow1{
+	margin: auto;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
+#buttonarrow1,#buttonarrow2{
+	width: 5vh;
+	height: 10vh;
+	background-color: white;
+	border: 0.5vh;
 }

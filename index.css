@@ -5,6 +5,8 @@
 }
 header{
   padding: 1em;
+  align-items: center;
+  justify-content: center;
 }
 .nav {
   height: 100%;
@@ -60,18 +62,21 @@ header{
 
 }
 .sub{
-  padding: 10em;
+  padding-top: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub img{
+  display: flex;
+	width: 18em;
+	height: 24em;
 }
 button{
 	width: 2em;
 	height: 3em;
 	background-color: transparent;
 	color: rgb(0, 0, 0);
-}
-.img{
-	display: flex;
-	width: 12em;
-	height: 24em;
 }
 
 .nav-trigger {

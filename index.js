@@ -12,7 +12,7 @@ function left(){
     else{
         document.getElementById(i).style.display = "block";
         i = 4;
-        document.getElementById(4).style.display = "none";
+        document.getElementById(i).style.display = "none";
     }
 }
 function right(){

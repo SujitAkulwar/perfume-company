@@ -10,16 +10,6 @@ function left(){
         document.getElementById(i).style.display = "none";
         
     }
-    else if(i == 2){
-        document.getElementById('2').style.display = "none";
-        document.getElementById('1').style.display = "block";
-        i = 1;
-    }
-    else if(i == 3){
-        document.getElementById('3').style.display = "none";
-        document.getElementById('2').style.display = "block";
-        i = 2;
-    }
     else{
         document.getElementById('4').style.display = "none";
         document.getElementById('3').style.display = "block";

@@ -4,16 +4,15 @@ document.getElementById('3').style.display = "none";
 document.getElementById('4').style.display = "none";
 let i = 1;
 function left(){
-    if(i < 4 && i > 0){
+    if(i > 1){
         document.getElementById(i).style.display = "block";
-        i = 1;
+        i = i - 1;
         document.getElementById(i).style.display = "none";
-        
     }
     else{
-        document.getElementById('4').style.display = "none";
         document.getElementById('3').style.display = "block";
-        i = 3;
+        i = 4;
+        document.getElementById('4').style.display = "none";
     }
 }
 function right(){

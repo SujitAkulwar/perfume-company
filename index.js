@@ -10,16 +10,16 @@ function left(){
         document.getElementById(i).style.display = "none";
     }
     else{
-        document.getElementById('3').style.display = "block";
+        document.getElementById(i).style.display = "block";
         i = 4;
-        document.getElementById('4').style.display = "none";
+        document.getElementById(4).style.display = "none";
     }
 }
 function right(){
     if(i == 1){
         document.getElementById('1').style.display = "none";
+        i = i + 1;
         document.getElementById('2').style.display = "block";
-        i = 2;
     }
     else if(i == 2){
         document.getElementById('2').style.display = "none";

@@ -4,10 +4,11 @@ document.getElementById('3').style.display = "none";
 document.getElementById('4').style.display = "none";
 let i = 1;
 function left(){
-    if(i == 1){
-        document.getElementById('1').style.display = "none";
-        document.getElementById('4').style.display = "block";
-        i = 4;
+    if(i < 4 && i > 0){
+        document.getElementById(i).style.display = "block";
+        i = 1;
+        document.getElementById(i).style.display = "none";
+        
     }
     else if(i == 2){
         document.getElementById('2').style.display = "none";

@@ -3,6 +3,7 @@
 	padding: 0;
 	margin: 0;
 }
+
 header{
   padding: 1em;
   align-items: center;
@@ -65,8 +66,8 @@ header{
 }
 .sub img{
   display: flex;
-	width: 18em;
-	height: 24em;
+	width: 24em;
+	height: 30em;
 }
 button{
 	width: 2em;

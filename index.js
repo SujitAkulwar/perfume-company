@@ -1,8 +1,9 @@
-document.getElementById('1').style.display = "block";
-document.getElementById('2').style.display = "none";
-document.getElementById('3').style.display = "none";
-document.getElementById('4').style.display = "none";
 let i = 1;
+let n = 4;
+for(let i = 2;i<n;i++){
+    document.getElementById(i).style.display = "none";
+}
+
 function left(){
     if(i > 1){
         document.getElementById(i).style.display = "none";

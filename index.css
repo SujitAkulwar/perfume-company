@@ -32,7 +32,7 @@ header{
 .item a {
   display: block;
   padding: 1em;  
-  color: rgb(255, 0, 0);
+  color: rgb(255, 131, 131);
   font-size: 1.2em;
   text-decoration: none;
   transition: color 0.2s, background 0.5s;
@@ -42,7 +42,7 @@ header{
 }
 
 .item a:hover {
-  color: #c74438;
+  color: #ff594a;
 	background-color: black;
 }
 

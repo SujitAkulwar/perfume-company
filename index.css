@@ -56,7 +56,6 @@ header{
   z-index: 1;
   padding: 0em;
   background-size: 200%;
-
 }
 .sub{
   padding-top: 6em;
@@ -69,6 +68,7 @@ header{
 	width: 24em;
 	height: 30em;
 }
+
 button{
 	width: 2em;
 	height: 3em;
@@ -109,11 +109,14 @@ label[for="nav-trigger"] {
   right: 0px;
 }
 
-
 body {
   overflow-x: hidden;
 }
 
+*, *:before, *:after{
+  -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;
+}
 
-*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
-html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+html, body{
+  height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif;
+}
